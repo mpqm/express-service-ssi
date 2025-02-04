@@ -1,28 +1,45 @@
-# Self Sovereign Identity with HyperledgerFabric(BlockChain)
-#### ⚪ About Project
-* ##### 디지털 환경에서 개인신원 관리에 대한 기존방식의 대책을 제시
-* ##### 하이퍼레저 페브릭만의 특성을 활용해 개인 정보 보호, 안정성을 강화 및 DID 기술을 적용한 사용자 신원 관리 방법 개발
-* ##### 하이퍼레저 페브릭 기술, DID 핵심 기능 구현을 통한 SSI 모델 기반 3세대 디지털 자기주권 신원인증 플랫폼을 개발
 
-- - -
 
-#### ⚪ Running Screen || Video
-<p align ="center">
-  <a href="https://www.youtube.com/watch?v=-RhS38dKmUY"><img src ="https://img.shields.io/badge/youtube-FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white"/></a>
-  </br>
-  <img src="https://github.com/MpqM/HyperledgerFabric_SSI/assets/79093184/56bd1b8d-6dfc-468b-ae47-3d61733919ca">
-</p>
 
-- - -
+# Self Sovereign Identity (+HyperledgerFabric)
+<div align="center">
+    <img  style="width: 50%" src="https://www.adnovum.com/hs-fs/hubfs/FILES/04_Insights/Blog/2023/SSI-Ultimate-Guide/ssi_en_8.png?width=2500&height=1667&name=ssi_en_8.png">
+</div>
+<div align=center>
+	<h3> 🌐 시연영상 <a href="https://www.youtube.com/watch?v=-RhS38dKmUY">유튜브 링크</a> </h3>
+</div>
 
-#### ⚪ Built With
-<p align ="center">
-  <img alt="React" src ="https://img.shields.io/badge/react-61DAFB.svg?&style=for-the-badge&logo=React&logoColor=white"/> <img alt="typescript" src ="https://img.shields.io/badge/typescript-3178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white"/> <img alt="express" src ="https://img.shields.io/badge/express-339933.svg?&style=for-the-badge&logo=express&logoColor=white"/> <img alt="nodedotjs" src ="https://img.shields.io/badge/nodejs-339933.svg?&style=for-the-badge&logo=nodedotjs&logoColor=white"/> <img alt="mongodb" src ="https://img.shields.io/badge/mongodb-339933.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/> <img alt="typescript" src ="https://img.shields.io/badge/hyperledger-3178C6.svg?&style=for-the-badge&logo=hyperledger&logoColor=white"/>
-</p>
+<br>
 
-- - -
+## 👨🏻‍🏫 프로젝트 소개
+<details>
+<summary><b> 👩🏻‍💻 졸업 팀 소개</b></summary>
+<br>
 
-#### ⚪ Getting Started
+|<img src="https://avatars.githubusercontent.com/u/79093184?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/79093184?v=4" width="150" height="150"/>|
+|:-:|:-:|
+|<a href="https://github.com/mpqm">👑박종성</a>|<a href="{github}">김민규</a>|
+
+</details>
+
+<br>
+
+<details>
+<summary><b> 📌 프로젝트 개요</b></summary>
+<br>
+
+- 디지털 환경에서 개인신원 관리에 대한 기존방식의 대책을 제시
+- 하이퍼레저 페브릭만의 특성을 활용해 개인 정보 보호, 안정성을 강화 및 DID 기술을 적용한 사용자 신원 관리 방법 개발
+- 하이퍼레저 페브릭 기술, DID 핵심 기능 구현을 통한 SSI 모델 기반 3세대 디지털 자기주권 신원인증 플랫폼을 개발
+- SSI 모델은 기존의 중앙화된 신원 인증 방식의 단점을 보완하고, DID 및 VC, VP기술을 활용해 보안성과 프라이버시를 강화
+</details>
+
+<br>
+ 
+<details>
+<summary><b> 🏃 프로젝트 실행 </b></summary>
+<br>
+
 ```bash
 # Prerequisites: npm, node, MongoDB Connection URL, ubuntu 20, docker, fabric-bin
 # ~
@@ -99,19 +116,82 @@ cd client
 npm install
 npm start
 ```
+</details>
 
-- - -
+<br>
 
-#### ⚪ Description
-<p align ="center">
-https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing
-</p>
+<details>
+<summary><b> 🚀 주요 기능 설명 </b></summary>
+<br>
 
-- - -
+- 하이퍼레저 페브릭 기반 신원 인증 시스템
+  - 프라이빗 블록체인 기술을 활용하여 중앙 기관 없이 분산 신원 증명 시스템 구축
+  - DID 생성 및 관리 (생성, 수정, 삭제, 조회)
+  - VC(검증 가능한 자격 증명) 발급 및 관리
+  - VP(검증 가능한 프레젠테이션) 생성 및 검증
+  - Node.js 서버를 이용한 하이퍼레저 페브릭과의 연결 및 제어
+- DID 기반 신원 인증
+  - 사용자가 직접 DID를 생성하여 블록체인 원장에 등록
+  - 중앙 기관에 의존하지 않고 사용자가 자신의 신원 데이터를 직접 관리
+  - DID 문서를 기반으로 사용자의 신원을 검증하는 Challenge-Response 방식 DID Auth 구현
+- VC(검증 가능한 자격증명) 활용
+  - 사용자의 대학 졸업 정보 및 신원 정보를 DID 기반으로 VC 발급
+  - JSON 형식으로 신뢰성 있는 인증서 발급 및 관리
+- VP(검증 가능한 프레젠테이션) 활용
+  - 특정 서비스 제공자(검증자)에게 필요한 정보만 선택적으로 제출 가능
+  - 블록체인을 활용한 위변조 방지 및 인증 절차 간소화
+- Node.js Express 서버 및 API
+  - 하이퍼레저 페브릭 네트워크와의 연동
+  - REST API를 통해 DID/VC/VP 생성, 검증 기능 제공
+  - Fabric Gateway를 활용한 하이퍼레저 페브릭과의 원장 트랜잭션 처리
+- React 기반 클라이언트 웹페이지
+  - 발급자(Issuer), 보유자(Holder), 검증자(Verifier) 역할별 서비스 페이지 제공
+  - 사용자 친화적인 DID 발급, VC 요청 및 관리, VP 제출 및 검증 기능 UI 구현
+  - 프론트엔드와 백엔드 간 원활한 데이터 연동을 위한 API 통신
+  - 지갑 기능의 데모 버전
 
-#### ⚪ Writer
-<p align ="center">
-  <img src ="https://img.shields.io/badge/gmail-EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> <a href = "https://github.com/MpqM"><img src ="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/></a> <a href = "https://MpqM.tistory.com/"> <img src ="https://img.shields.io/badge/tistory-000000.svg?&style=for-the-badge&logo=Tistory&logoColor=white"/></a>
-</p>
+</details>
 
-- - -
+<br>
+
+<details>
+<summary><b> 🎡 System Architecture </b></summary>
+<br>
+<div align="center">
+  <img src="https://github.com/MpqM/HyperledgerFabric_SSI/assets/79093184/56bd1b8d-6dfc-468b-ae47-3d61733919ca">
+</div>
+</details>
+
+<br>
+
+<details>
+<summary><b> 🗄️ 개발 문서 및 링크 </b></summary>
+<br>
+
+| **문서**|**링크**|
+|--------|--------|
+| 📃 졸업 논문 | [졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing)|
+| 🎥 프로젝트 시연 영상|[프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
+
+
+</details>
+
+<br>
+
+<details>
+<summary><b> 💻 기술 스택 </b></summary>
+<br>
+
+| *Category* |**Skills**| 
+|-------------|---------|
+|**Blockchain**| ![hyperledgerfabric](https://img.shields.io/badge/hyperledgerFabric-3178C6.svg?&style=for-the-badge&logo=hyperledger&logoColor=white) |
+|**SmartContract**| ![HyperledgerFabricChaincode](https://img.shields.io/badge/FabricChaincode-3178C6.svg?&style=for-the-badge&logo=hyperledger&logoColor=white) |
+|**Language**| ![typescript](https://img.shields.io/badge/typescript-3178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white) ![go](https://img.shields.io/badge/go-00ADD8.svg?&style=for-the-badge&logo=go&logoColor=white)
+|**Backend**| ![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)  |
+|**Frontend**| ![React](https://img.shields.io/badge/react.js-61DAFB?style=for-the-badge&logo=react&logoColor=white) |
+| **Database**| ![MongoDB](https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  ![apachecouchdb](https://img.shields.io/badge/Couchdb-E42528?style=for-the-badge&logo=apachecouchdb&logoColor=white)|
+|**Identity Management**|  DID, VC, VP (W3C 표준) |
+|**Authentication**|  DID Auth (Challenge-Response) |
+|**Networking**| gRPC, Fabric Gateway |
+
+</details>
