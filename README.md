@@ -1,7 +1,7 @@
 
 
 
-# Self Sovereign Identity (+HyperledgerFabric)
+# Self Sovereign Identity
 <div align="center">
     <img  style="width: 50%" src="https://www.adnovum.com/hs-fs/hubfs/FILES/04_Insights/Blog/2023/SSI-Ultimate-Guide/ssi_en_8.png?width=2500&height=1667&name=ssi_en_8.png">
 </div>
@@ -155,6 +155,24 @@ npm start
 <br>
 
 <details>
+<summary><b> 🎮 기술 스택 </b></summary>
+<br>
+
+| *CATEGORY*              | **SKILLS**                                                                                                                                                                                                                               | 
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BACKEND**             | ![typescript](https://img.shields.io/badge/typescript-3178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white) ![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)          |
+| **FRONTEND**            | ![typescript](https://img.shields.io/badge/typescript-3178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white)                |
+| **DATABASE**            | ![MongoDB](https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  ![apachecouchdb](https://img.shields.io/badge/Couchdb-E42528?style=for-the-badge&logo=apachecouchdb&logoColor=white)           |
+| **BLOCKCHAIN**          | ![hyperledgerfabric](https://img.shields.io/badge/hyperledgerFabric-3178C6.svg?&style=for-the-badge&logo=hyperledger&logoColor=white)                                                                                                    |
+| **SMARTCONTRACT**       | ![HyperledgerFabricChaincode](https://img.shields.io/badge/FabricChaincode-3178C6.svg?&style=for-the-badge&logo=hyperledger&logoColor=white) ![go](https://img.shields.io/badge/go-00ADD8.svg?&style=for-the-badge&logo=go&logoColor=white) |
+| **IDENTITY MANAGEMENT** | DID, VC, VP (W3C 표준)                                                                                                                                                                                                                     |
+| **AUTHENTICATION**      | DID Auth (Challenge-Response)                                                                                                                                                                                                            |
+| **NETWORKING**          | gRPC, Fabric Gateway                                                                                                                                                                                                                     |
+</details>
+
+<br>
+
+<details>
 <summary><b> 🎡 System Architecture </b></summary>
 <br>
 <div align="center">
@@ -165,10 +183,10 @@ npm start
 <br>
 
 <details>
-<summary><b> 🗄️ 개발 문서 및 링크 </b></summary>
+<summary><b> 🗄️ 프로젝트 개발 산출물 </b></summary>
 <br>
 
-| **문서**|**링크**|
+| **프로젝트 개발 산출물**|**링크**|
 |--------|--------|
 | 📃 졸업 논문 | [졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing)|
 | 🎥 프로젝트 시연 영상|[프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
@@ -178,20 +196,4 @@ npm start
 
 <br>
 
-<details>
-<summary><b> 💻 기술 스택 </b></summary>
-<br>
 
-| *Category* |**Skills**| 
-|-------------|---------|
-|**Blockchain**| ![hyperledgerfabric](https://img.shields.io/badge/hyperledgerFabric-3178C6.svg?&style=for-the-badge&logo=hyperledger&logoColor=white) |
-|**SmartContract**| ![HyperledgerFabricChaincode](https://img.shields.io/badge/FabricChaincode-3178C6.svg?&style=for-the-badge&logo=hyperledger&logoColor=white) |
-|**Language**| ![typescript](https://img.shields.io/badge/typescript-3178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white) ![go](https://img.shields.io/badge/go-00ADD8.svg?&style=for-the-badge&logo=go&logoColor=white)
-|**Backend**| ![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)  |
-|**Frontend**| ![React](https://img.shields.io/badge/react.js-61DAFB?style=for-the-badge&logo=react&logoColor=white) |
-| **Database**| ![MongoDB](https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  ![apachecouchdb](https://img.shields.io/badge/Couchdb-E42528?style=for-the-badge&logo=apachecouchdb&logoColor=white)|
-|**Identity Management**|  DID, VC, VP (W3C 표준) |
-|**Authentication**|  DID Auth (Challenge-Response) |
-|**Networking**| gRPC, Fabric Gateway |
-
-</details>
