@@ -8,3 +8,4 @@
 /hyperledgerfabric/chaincode/did/go.sum
 /server/logs
 /server/node_modules
+.idea

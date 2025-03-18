@@ -10,28 +10,28 @@
 </div>
 
 <br>
-
-## 👨🏻‍🏫 프로젝트 소개
 <details>
-<summary><b> 👩🏻‍💻 졸업 팀 소개</b></summary>
-<br>
+<summary><b> 👩🏻‍💻 프로젝트 멤버</b></summary>
+
+### 졸업 팀
 
 |<img src="https://avatars.githubusercontent.com/u/79093184?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/79093184?v=4" width="150" height="150"/>|
 |:-:|:-:|
 |<a href="https://github.com/mpqm">👑박종성</a>|<a href="{github}">김민규</a>|
 
 </details>
-
 <br>
-
 <details>
 <summary><b> 📌 프로젝트 개요</b></summary>
 <br>
 
-- 디지털 환경에서 개인신원 관리에 대한 기존방식의 대책을 제시
-- 하이퍼레저 페브릭만의 특성을 활용해 개인 정보 보호, 안정성을 강화 및 DID 기술을 적용한 사용자 신원 관리 방법 개발
-- 하이퍼레저 페브릭 기술, DID 핵심 기능 구현을 통한 SSI 모델 기반 3세대 디지털 자기주권 신원인증 플랫폼을 개발
-- SSI 모델은 기존의 중앙화된 신원 인증 방식의 단점을 보완하고, DID 및 VC, VP기술을 활용해 보안성과 프라이버시를 강화
+
+
+  - 디지털 환경에서 개인신원 관리에 대한 기존방식의 대책을 제시
+  - 하이퍼레저 페브릭만의 특성을 활용해 개인 정보 보호, 안정성을 강화 및 DID 기술을 적용한 사용자 신원 관리 방법 개발
+  - 하이퍼레저 페브릭 기술, DID 핵심 기능 구현을 통한 SSI 모델 기반 3세대 디지털 자기주권 신원인증 플랫폼을 개발
+  - SSI 모델은 기존의 중앙화된 신원 인증 방식의 단점을 보완하고, DID 및 VC, VP기술을 활용해 보안성과 프라이버시를 강화
+
 </details>
 
 <br>
@@ -121,7 +121,7 @@ npm start
 <br>
 
 <details>
-<summary><b> 🚀 주요 기능 설명 </b></summary>
+<summary><b> 🚀 프로젝트 설명 </b></summary>
 <br>
 
 - 하이퍼레저 페브릭 기반 신원 인증 시스템
@@ -155,7 +155,7 @@ npm start
 <br>
 
 <details>
-<summary><b> 🎮 기술 스택 </b></summary>
+<summary><b> 🎮 프로젝트 스택 </b></summary>
 <br>
 
 | *CATEGORY*              | **SKILLS**                                                                                                                                                                                                                               | 
@@ -173,23 +173,14 @@ npm start
 <br>
 
 <details>
-<summary><b> 🎡 System Architecture </b></summary>
-<br>
-<div align="center">
-  <img src="https://github.com/MpqM/HyperledgerFabric_SSI/assets/79093184/56bd1b8d-6dfc-468b-ae47-3d61733919ca">
-</div>
-</details>
-
+<summary><b> 📃 프로젝트 문서 </b></summary>
 <br>
 
-<details>
-<summary><b> 🗄️ 프로젝트 개발 산출물 </b></summary>
-<br>
-
-| **프로젝트 개발 산출물**|**링크**|
-|--------|--------|
-| 📃 졸업 논문 | [졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing)|
-| 🎥 프로젝트 시연 영상|[프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
+| **프로젝트 문서**   |**링크**|
+|---------------|--------|
+| 🎡 시스템 아키텍처   |[프로젝트 시연 영상](https://github.com/mpqm/express-service-ssi/wiki/01.-System-Architecture)|
+| 📃 졸업 논문      | [졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing)|
+| 🎥 프로젝트 시연 영상 |[프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
 
 
 </details>
