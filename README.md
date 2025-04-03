@@ -25,8 +25,6 @@
 <summary><b> 📌 프로젝트 개요</b></summary>
 <br>
 
-
-
   - 디지털 환경에서 개인신원 관리에 대한 기존방식의 대책을 제시
   - 하이퍼레저 페브릭만의 특성을 활용해 개인 정보 보호, 안정성을 강화 및 DID 기술을 적용한 사용자 신원 관리 방법 개발
   - 하이퍼레저 페브릭 기술, DID 핵심 기능 구현을 통한 SSI 모델 기반 3세대 디지털 자기주권 신원인증 플랫폼을 개발
@@ -178,9 +176,9 @@ npm start
 
 | **프로젝트 문서**   |**링크**|
 |---------------|--------|
-| 🎡 시스템 아키텍처   |[프로젝트 시연 영상](https://github.com/mpqm/express-service-ssi/wiki/01.-System-Architecture)|
-| 📃 졸업 논문      | [졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing)|
-| 🎥 프로젝트 시연 영상 |[프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
+| 🎡 시스템 아키텍처    | [시스템 아키텍처](https://drive.google.com/file/d/14ZFTt3TzELou1tpTrQD5vc70LbWA40wX/view?usp=sharing)|
+| 📃 학사 졸업 논문     | [학사 졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing)|
+| 🎥 프로젝트 시연 영상 | [프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
 
 
 </details>
