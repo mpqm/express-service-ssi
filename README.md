@@ -6,7 +6,7 @@
     <img src="./meta/image/image1.png">
 </div>
 <div align=center>
-	<h3> 🌐 시연영상 <a href="https://www.youtube.com/watch?v=-RhS38dKmUY">유튜브 링크</a> </h3>
+	<h3><a href="https://www.youtube.com/watch?v=-RhS38dKmUY">🌐 시연영상</a></h3>
 </div>
 
 <br>
@@ -176,9 +176,9 @@ npm start
 
 | **프로젝트 문서**   |**링크**|
 |---------------|--------|
-| 🎡 시스템 아키텍처    | [시스템 아키텍처](https://github.com/mpqm/express-service-ssi/tree/main/meta/image/image2.png)|
-| 📃 학사 졸업 논문     | [학사 졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing)|
-| 🎥 프로젝트 시연 영상 | [프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
+| 🎡 시스템 아키텍처    | [시스템 아키텍처](https://github.com/mpqm/express-service-ssi/tree/main/meta/media/image2.png)|
+| 📃 학사 졸업 논문     | [학사 졸업 논문](https://github.com/mpqm/express-service-ssi/blob/main/meta/doc/%ED%95%99%EC%82%AC%EC%A1%B8%EC%97%85%EB%85%BC%EB%AC%B8.pdf)|
+| 🎥 프로젝트 시연 영상 | [프로젝트 시연 영상]((https://github.com/mpqm/express-service-ssi/tree/main/meta/media/image2.png))|
 
 </details>
 
