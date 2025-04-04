@@ -3,7 +3,7 @@
 
 # Self Sovereign Identity
 <div align="center">
-    <img  style="width: 50%" src="https://www.adnovum.com/hs-fs/hubfs/FILES/04_Insights/Blog/2023/SSI-Ultimate-Guide/ssi_en_8.png?width=2500&height=1667&name=ssi_en_8.png">
+    <img src="./meta/image/image1.png">
 </div>
 <div align=center>
 	<h3> 🌐 시연영상 <a href="https://www.youtube.com/watch?v=-RhS38dKmUY">유튜브 링크</a> </h3>
@@ -176,10 +176,9 @@ npm start
 
 | **프로젝트 문서**   |**링크**|
 |---------------|--------|
-| 🎡 시스템 아키텍처    | [시스템 아키텍처](https://drive.google.com/file/d/14ZFTt3TzELou1tpTrQD5vc70LbWA40wX/view?usp=sharing)|
+| 🎡 시스템 아키텍처    | [시스템 아키텍처](https://github.com/mpqm/express-service-ssi/tree/main/meta/image/image2.png)|
 | 📃 학사 졸업 논문     | [학사 졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=sharing)|
 | 🎥 프로젝트 시연 영상 | [프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
-
 
 </details>
 
