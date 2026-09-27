@@ -1,13 +1,6 @@
-
-
-
-# Self Sovereign Identity
-<div align="center">
-    <img src="./meta/image1.png">
-</div>
-<div align=center>
-	<h3>  <a href="https://www.youtube.com/watch?v=-RhS38dKmUY">🌐시연영상</a> </h3>
-</div>
+# SSI(Self Sovereign Identity)
+<div align="center"><img src="./meta/image/image1.png"></div>
+<div align=center><h3><a href="https://www.youtube.com/watch?v=-RhS38dKmUY">🌐시연영상</a> </h3></div>
 
 <br>
 <details>
@@ -176,7 +169,7 @@ npm start
 
 | **프로젝트 문서**   |**링크**|
 |---------------|--------|
-| 🎡 시스템 아키텍처    | [시스템 아키텍처](https://github.com/mpqm/express-service-ssi/tree/main/meta/image2.png)|
+| 🎡 시스템 아키텍처    | [시스템 아키텍처](./meta/image/image2.png)|
 | 📃 학사 졸업 논문     | [학사 졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=drive_link)|
 | 🎥 프로젝트 시연 영상 | [프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
 
