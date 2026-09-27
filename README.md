@@ -171,6 +171,7 @@ npm start
 |---------------|--------|
 | 🎡 시스템 아키텍처    | [시스템 아키텍처](./meta/image/image2.png)|
 | 📃 학사 졸업 논문     | [학사 졸업 논문](https://drive.google.com/file/d/1kzSjT_GSrpw0JnYox_81vDI9QGD6dBXg/view?usp=drive_link)|
+| 📃 설치 가이드     | [설치 가이드](https://drive.google.com/file/d/1eBGt8Dp_JGHBLKX_GOZhegmajfApyouI/view?usp=sharing)|
 | 🎥 프로젝트 시연 영상 | [프로젝트 시연 영상](https://www.youtube.com/watch?v=-RhS38dKmUY)|
 
 </details>
